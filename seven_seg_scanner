@@ -1,0 +1,24 @@
+module seven_seg_scanner(
+    input div_clock,
+    input reset,
+    output [3:0] anode
+);
+
+
+endmodule
+
+module dff(
+input D,
+input clk,
+input reset,
+output reg Q
+
+//output notQ
+);
+//assign notQ = ~Q
+initial begin
+if (reset) 
+Q <= D;
+end
+endmodule
+??????????????? one hot code would be nice
